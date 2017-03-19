@@ -8,6 +8,8 @@ void OpenGLWindow::initializeGL()
 {
 	glewInit();
 	glEnable(GL_DEPTH_TEST);
+
+	loadShapes();
 }
 
 void OpenGLWindow::loadShapes()

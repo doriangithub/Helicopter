@@ -5,9 +5,6 @@ class ShapeGenerator
 {
 
 public:
-	ShapeGenerator();
-	~ShapeGenerator();
-
 	static ShapeData makeTitle();
 };
 

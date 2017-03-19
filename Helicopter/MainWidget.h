@@ -5,13 +5,11 @@
 class MainWidget : public QWidget
 {
 public:
-	OpenGLWindow * GameWindow;
-
+	OpenGLWindow * gameWindow;
 	MainWidget();
-	~MainWidget();
 
 protected: 
 
-
+	
 };
 
