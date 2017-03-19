@@ -13,6 +13,4 @@ int main(int argn, char* argv[])
 	mainWidg.setGeometry(50, 50, 1200, 600);
 	mainWidg.show();
 	return app.exec();
-
-	return 0;
 }

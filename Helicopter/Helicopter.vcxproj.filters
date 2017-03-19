@@ -5,15 +5,34 @@
     <ClCompile Include="MainWidget.cpp">
       <Filter>QTWidgets</Filter>
     </ClCompile>
+    <ClCompile Include="OpenGLWindow.cpp" />
+    <ClCompile Include="ShapeGenerator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="QTWidgets">
       <UniqueIdentifier>{28afa09c-cef5-4dfb-a6cd-e61d56e8dfce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{4ef977ee-60eb-4255-9285-466622eb2cc9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainWidget.h">
       <Filter>QTWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWindow.h" />
+    <ClInclude Include="ShapeGenerator.h" />
+    <ClInclude Include="ShapeData.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexWithNormal.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexPosition.h">
+      <Filter>Structs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
