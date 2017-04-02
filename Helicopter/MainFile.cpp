@@ -12,5 +12,7 @@ int main(int argn, char* argv[])
 	MainWidget mainWidg;
 	mainWidg.setGeometry(50, 50, 1200, 600);
 	mainWidg.show();
+	mainWidg.showMaximized();
+
 	return app.exec();
 }

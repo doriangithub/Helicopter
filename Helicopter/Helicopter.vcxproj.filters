@@ -15,6 +15,9 @@
     <Filter Include="Structs">
       <UniqueIdentifier>{4ef977ee-60eb-4255-9285-466622eb2cc9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{50470677-1e9a-401d-9018-2f890c2e5e5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainWidget.h">
@@ -34,5 +37,13 @@
     <ClInclude Include="VertexPosition.h">
       <Filter>Structs</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertexShaderCode.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="FragmentShaderCode.glsl">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

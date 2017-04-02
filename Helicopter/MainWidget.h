@@ -5,7 +5,7 @@
 class MainWidget : public QWidget
 {
 public:
-	OpenGLWindow * gameWindow;
+	OpenGLWindow *gameWindow;
 	MainWidget();
 
 protected: 
